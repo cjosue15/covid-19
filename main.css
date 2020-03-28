@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.map {
+    width: 100vw;
+    height: 100vh;
+    position: relative !important;
+    z-index: 1000000000000000 !important;
+}
+
+.earth-overlay .title {
+    padding: 10px 5px;
+    background-color: black;
+}
+
+.earth-overlay .info {
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    background-color: #840000;
+}
+
+.gm-style .gm-style-iw-t::after {
+    background: #840000 !important;
+    box-shadow: none !important;
+}
+
+.earth-overlay img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.gm-style-iw-d {
+    max-width: 180px !important;
+    overflow: unset !important;
+}
+
+.gm-style-iw.gm-style-iw-c {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.gm-style-iw-t button img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.gm-style-iw-t button {
+    top: 0px !important;
+    right: 10px !important;
+}
+
+.title span {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.info div span {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 8px;
+}
